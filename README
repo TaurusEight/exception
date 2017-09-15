@@ -1,0 +1,22 @@
+
+Time-stamp: <2017-09-14 17:36:19 dmendyke>
+
+"C" Exceptions
+
+A library that provides "C++" like exception error handling to
+C applications.  Based on an article and sample code that first
+appeared in Dr Dobbs Journal Nov 1, 2000.
+
+http://www.drdobbs.com/cpp/exception-handling-in-c-without-c/184404317?queryText=RTFiles
+
+
+Building
+
+No other libraries, aside from the standard C libary, are required.
+To build simply type "make" at the command line.  The code is Linux
+specific and has not been tested on any version of Windows.
+
+
+The file 'main.c' includes a sample of how this library is used.
+
+-Daniel
